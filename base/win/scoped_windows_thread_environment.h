@@ -11,7 +11,7 @@ namespace base {
 namespace win {
 
 // Serves as a root class for ScopedCOMInitializer and ScopedWinrtInitializer.
-class ScopedWindowsThreadEnvironment {
+class BASE_EXPORT ScopedWindowsThreadEnvironment {
  public:
   ScopedWindowsThreadEnvironment() {}
   virtual ~ScopedWindowsThreadEnvironment() {}
