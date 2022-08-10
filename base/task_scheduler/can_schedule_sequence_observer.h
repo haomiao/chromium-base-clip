@@ -10,7 +10,7 @@
 namespace base {
 namespace internal {
 
-class CanScheduleSequenceObserver {
+class BASE_EXPORT CanScheduleSequenceObserver {
  public:
   // Called when |sequence| can be scheduled. It is expected that
   // TaskTracker::RunNextTask() will be called with |sequence| as argument after
